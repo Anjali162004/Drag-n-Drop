@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag n Drop</title>
+  <link rel="stylesheet" type="text/css" href="os.css">
+</head>
+<body>
+  <div>
+    <h1 class="heading">Drag n Drop</h1>
+  </div>
+  <div class="main-container">
+    <div class="container">
+      <h2>Container one</h2>
+      <div id="first-container" class="source-container">
+        <div class="item" draggable="true">text </div>
+        <div class="item" draggable="true">drag </div>
+        <!-- <div class="item" draggable="true"><img src="https://welovecatsandkittens.com/wp-content/uploads/2017/05/cute.jpg" alt=""></div> -->
+
+        <div class="item" draggable="true" style="font-size:48px">
+          &#128512;  
+          </div>
+          <div class="item" draggable="true" style="font-size:48px">
+            &#128516; 
+          </div>
+          <div class="item" draggable="true" style="font-size:48px">
+          &#128525;  
+          </div>
+        <img class="item" draggable="true" src="https://welovecatsandkittens.com/wp-content/uploads/2017/05/cute.jpg" alt="no connection">
+      </div>
+    </div>
+    <div class="container">
+      <h2>Container two</h2>
+      <div id="second-container" class="target-container"></div>
+    </div>
+  </div>
+
+  <div class="centered">
+    <button id="reset-btn">Reset</button>
+  </div>
+
+  <script src="os.js"></script>
+</body>
+</html>
